@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Task Manager</h1>
+        <div class="section">
+            <h2>Tasks</h2>
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+        <div class="section">
+            <h2>Notes</h2>
+            <textarea id="noteInput" placeholder="Enter a new note"></textarea>
+            <button onclick="addNote()">Add Note</button>
+            <ul id="noteList"></ul>
+        </div>
+        <div class="section">
+            <h2>Events</h2>
+            <input type="text" id="eventInput" placeholder="Enter a new event">
+            <button onclick="addEvent()">Add Event</button>
+            <ul id="eventList"></ul>
+        </div>
+        <div class="section">
+            <h2>Reminders</h2>
+            <input type="text" id="reminderInput" placeholder="Enter a reminder">
+            <button onclick="addReminder()">Add Reminder</button>
+            <ul id="reminderList"></ul>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
